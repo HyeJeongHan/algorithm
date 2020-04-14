@@ -1,6 +1,7 @@
-package om.project.algorithm
+package com.project.algorithm
 
 import com.project.algorithm.codility.GenomicRangeQuery
+import org.junit.Assert
 import org.junit.Test
 
 class GenomicRangeQueryTest {
@@ -8,6 +9,6 @@ class GenomicRangeQueryTest {
     fun test() {
         val testClass = GenomicRangeQuery()
 
-//        Assert.assertEquals(6, testClass.solution(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4)))
+        Assert.assertArrayEquals(intArrayOf(2, 4, 1), testClass.solution("CAGCCTA", intArrayOf(2,5,0), intArrayOf(4,5,6)))
     }
 }
