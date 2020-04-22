@@ -1,4 +1,4 @@
-package om.project.algorithm
+package com.project.algorithm
 
 import com.project.algorithm.codility.MaxCounters
 import org.junit.Assert

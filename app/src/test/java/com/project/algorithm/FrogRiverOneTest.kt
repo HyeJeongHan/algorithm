@@ -1,4 +1,4 @@
-package om.project.algorithm
+package com.project.algorithm
 
 import com.project.algorithm.codility.FrogRiverOne
 import org.junit.Assert.assertEquals

@@ -1,6 +1,7 @@
 package com.project.algorithm
 
 import com.project.algorithm.codility.CountDiv
+import com.project.algorithm.codility.Distinct
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -9,12 +10,12 @@ import org.junit.Test
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class CountDivTest {
+class DistinctTest {
     @Test
     fun test() {
 
-        val testClass = CountDiv()
+        val testClass = Distinct()
 
-        assertEquals(3, testClass.countDiv(6, 11, 2))
+        assertEquals(1, testClass.solution(intArrayOf(0)))
     }
 }
